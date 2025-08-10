@@ -7,11 +7,11 @@
   },
   "experimental": {
     "clash_api": {
-      "external_controller": "127.0.0.1:20123",
-      "external_ui": "",
-      "external_ui_download_url": "",
+      "external_controller": "0.0.0.0:9095",
+      "external_ui": "/etc/sing-box/ui",
+      "external_ui_download_url": "https://github.qiuhan88.dpdns.org/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "🎯 全球直连",
-      "secret": "40cf80546ed45fb9fc0a15fe0bcf3807ad0b4bb6453e25e784ee449cc4789ff4",
+      "secret": "",
       "default_mode": "rule",
       "access_control_allow_origin": [
         "*"
@@ -32,7 +32,7 @@
       "type": "mixed",
       "tag": "mixed-in",
       "listen": "127.0.0.1",
-      "listen_port": 20122,
+      "listen_port": 7895,
       "tcp_fast_open": false,
       "tcp_multi_path": false,
       "udp_fragment": false
@@ -54,7 +54,7 @@
         "http_proxy": {
           "enabled": true,
           "server": "127.0.0.1",
-          "server_port": 20122
+          "server_port": 7895
         }
       }
     }
@@ -664,6 +664,6 @@
     "disable_expire": false,
     "independent_cache": false,
     "final": "Remote-DNS",
-    "strategy": "prefer_ipv6"
+    "strategy": "only_ipv4"
   }
 }
