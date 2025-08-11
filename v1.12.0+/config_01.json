@@ -63,7 +63,14 @@
       "type": "selector",
       "tag": "🚀 节点选择",
       "interrupt_exist_connections": true,
-      "outbounds": []
+      "outbounds": [
+        "🇭🇰 香港",
+        "🇹🇼 台湾",
+        "🇸🇬 新加坡",
+        "🇯🇵 日本",
+        "🇺🇸 美国",
+        "other其他" 
+      ]
     },
     {
       "type": "urltest",
