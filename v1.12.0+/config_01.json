@@ -243,10 +243,6 @@
       ]
     },
     {
-      "type": "direct",
-      "tag": "🎯 全球直连"
-    },
-    {
       "type": "selector",
       "tag": "🐟 漏网之鱼",
       "interrupt_exist_connections": true,
@@ -318,7 +314,11 @@
         "🎯 全球直连",
         "🐟 漏网之鱼"
       ]
-    }
+    },
+    {
+      "type": "direct",
+      "tag": "🎯 全球直连"
+    },
   ],
   "route": {
     "rules": [
