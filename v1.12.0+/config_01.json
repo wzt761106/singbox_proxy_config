@@ -73,65 +73,24 @@
       ]
     },
     {
-      "type": "urltest",
-      "tag": "🇭🇰 香港",
+      "type": "selector",
+      "tag": "▶️ YouTube",
       "interrupt_exist_connections": true,
-      "outbounds": [],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50
-    },
-    {
-      "type": "urltest",
-      "tag": "🇹🇼 台湾",
-      "interrupt_exist_connections": true,
-      "outbounds": [],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50
-    },
-    {
-      "type": "urltest",
-      "tag": "🇸🇬 新加坡",
-      "interrupt_exist_connections": true,
-      "outbounds": [],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50
-    },
-    {
-      "type": "urltest",
-      "tag": "🇯🇵 日本",
-      "interrupt_exist_connections": true,
-      "outbounds": [],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50
-    },
-    {
-      "type": "urltest",
-      "tag": "🇺🇸 美国",
-      "interrupt_exist_connections": true,
-      "outbounds": [],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50
-    },
-    {
-      "type": "urltest",
-      "tag": "other其他",
-      "interrupt_exist_connections": true,
-      "outbounds": [],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50
+      "outbounds": [
+        "🚀 节点选择",
+        "🇭🇰 香港",
+        "🇹🇼 台湾",
+        "🇸🇬 新加坡",
+        "🇯🇵 日本",
+        "🇺🇸 美国",
+        "other其他"
+      ]
     },
     {
       "type": "selector",
-      "tag": "🔍 Bing",
+      "tag": "🤖 AI",
       "interrupt_exist_connections": true,
       "outbounds": [
-        "🎯 全球直连",
         "🚀 节点选择",
         "🇭🇰 香港",
         "🇹🇼 台湾",
@@ -157,9 +116,25 @@
     },
     {
       "type": "selector",
-      "tag": "▶️ YouTube",
+      "tag": "📦 Github",
       "interrupt_exist_connections": true,
       "outbounds": [
+        "🚀 节点选择",
+        "🎯 全球直连",
+        "🇭🇰 香港",
+        "🇹🇼 台湾",
+        "🇸🇬 新加坡",
+        "🇯🇵 日本",
+        "🇺🇸 美国",
+        "other其他"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "🔍 Bing",
+      "interrupt_exist_connections": true,
+      "outbounds": [
+        "🎯 全球直连",
         "🚀 节点选择",
         "🇭🇰 香港",
         "🇹🇼 台湾",
@@ -268,35 +243,6 @@
       ]
     },
     {
-      "type": "selector",
-      "tag": "🤖 AI",
-      "interrupt_exist_connections": true,
-      "outbounds": [
-        "🚀 节点选择",
-        "🇭🇰 香港",
-        "🇹🇼 台湾",
-        "🇸🇬 新加坡",
-        "🇯🇵 日本",
-        "🇺🇸 美国",
-        "other其他"
-      ]
-    },
-    {
-      "type": "selector",
-      "tag": "📦 Github",
-      "interrupt_exist_connections": true,
-      "outbounds": [
-        "🚀 节点选择",
-        "🎯 全球直连",
-        "🇭🇰 香港",
-        "🇹🇼 台湾",
-        "🇸🇬 新加坡",
-        "🇯🇵 日本",
-        "🇺🇸 美国",
-        "other其他"
-      ]
-    },
-    {
       "type": "direct",
       "tag": "🎯 全球直连"
     },
@@ -308,6 +254,60 @@
         "🚀 节点选择",
         "🎯 全球直连"
       ]
+    },
+    {
+      "type": "urltest",
+      "tag": "🇭🇰 香港",
+      "interrupt_exist_connections": true,
+      "outbounds": [],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
+    {
+      "type": "urltest",
+      "tag": "🇹🇼 台湾",
+      "interrupt_exist_connections": true,
+      "outbounds": [],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
+    {
+      "type": "urltest",
+      "tag": "🇸🇬 新加坡",
+      "interrupt_exist_connections": true,
+      "outbounds": [],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
+    {
+      "type": "urltest",
+      "tag": "🇯🇵 日本",
+      "interrupt_exist_connections": true,
+      "outbounds": [],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
+    {
+      "type": "urltest",
+      "tag": "🇺🇸 美国",
+      "interrupt_exist_connections": true,
+      "outbounds": [],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
+    {
+      "type": "urltest",
+      "tag": "other其他",
+      "interrupt_exist_connections": true,
+      "outbounds": [],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
     },
     {
       "type": "selector",
@@ -323,11 +323,53 @@
   "route": {
     "rules": [
       {
+        "action": "sniff",
+        "inbound": "tun-in"
+      },
+      {
+        "action": "hijack-dns",
+        "protocol": "dns"
+      },
+      {
+        "action": "reject",
+        "protocol": "quic"
+      },
+      {
+        "action": "reject",
+        "rule_set": [
+          "Category-Ads"
+        ]
+      },
+      {
+        "action": "route",
+        "clash_mode": "direct",
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "action": "route",
+        "clash_mode": "global",
+        "outbound": "GLOBAL"
+      },
+      {
         "action": "route",
         "rule_set": [
-          "Github"
+          "GeoSite-Private"
         ],
-        "outbound": "📦 Github"
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "action": "route",
+        "rule_set": [
+          "GeoIP-Private"
+        ],
+        "outbound": "🎯 全球直连"
+      },
+      {
+        "action": "route",
+        "rule_set": [
+          "Youtube"
+        ],
+        "outbound": "▶️ YouTube"
       },
       {
         "action": "route",
@@ -337,6 +379,20 @@
           "Gemini"
         ],
         "outbound": "🤖 AI"
+      },
+      {
+        "action": "route",
+        "rule_set": [
+          "Google"
+        ],
+        "outbound": "🌐 Google"
+      },
+      {
+        "action": "route",
+        "rule_set": [
+          "Github"
+        ],
+        "outbound": "📦 Github"
       },
       {
         "action": "route",
@@ -392,71 +448,15 @@
       {
         "action": "route",
         "rule_set": [
-          "Youtube"
-        ],
-        "outbound": "▶️ YouTube"
-      },
-      {
-        "action": "route",
-        "rule_set": [
-          "Google"
-        ],
-        "outbound": "🌐 Google"
-      },
-      {
-        "action": "route",
-        "rule_set": [
           "Bing",
           "Bing-CN"
         ],
         "outbound": "🔍 Bing"
       },
       {
-        "action": "sniff",
-        "inbound": "tun-in"
-      },
-      {
-        "action": "hijack-dns",
-        "protocol": "dns"
-      },
-      {
-        "action": "route",
-        "clash_mode": "direct",
-        "outbound": "🎯 全球直连"
-      },
-      {
-        "action": "route",
-        "clash_mode": "global",
-        "outbound": "GLOBAL"
-      },
-      {
-        "action": "reject",
-        "protocol": "quic"
-      },
-      {
-        "action": "reject",
-        "rule_set": [
-          "Category-Ads"
-        ]
-      },
-      {
-        "action": "route",
-        "rule_set": [
-          "GeoSite-Private"
-        ],
-        "outbound": "🎯 全球直连"
-      },
-      {
         "action": "route",
         "rule_set": [
           "GeoSite-CN"
-        ],
-        "outbound": "🎯 全球直连"
-      },
-      {
-        "action": "route",
-        "rule_set": [
-          "GeoIP-Private"
         ],
         "outbound": "🎯 全球直连"
       },
