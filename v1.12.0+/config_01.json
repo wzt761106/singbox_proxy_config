@@ -342,6 +342,16 @@
       },
       {
         "action": "route",
+        "domain": [
+          "play.googleapis.com",
+          "android.clients.google.com",
+          "*.gvt1.com",
+          "*.googleusercontent.com"
+        ],
+        "outbound": "🌐 Google"
+      },
+      {
+        "action": "route",
         "clash_mode": "direct",
         "outbound": "🎯 全球直连"
       },
